@@ -1,0 +1,4 @@
+# Si true : acheter plusieurs fois un pouvoir à limite > 1 augmente son niveau
+# (ex : Hâte I acheté 3 fois = Hâte III). Si false : seul le pouvoir le plus haut compte.
+# Les pouvoirs à achats illimités ne s'empilent jamais.
+stack-repeat-purchases: true

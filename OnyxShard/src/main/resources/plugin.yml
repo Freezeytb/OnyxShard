@@ -1,0 +1,15 @@
+name: OnyxShard
+version: '${project.version}'
+main: fr.onyx.shard.OnyxShardPlugin
+api-version: '1.21'
+description: Les kills donnent des ONYX SHARD convertibles en Sold pour acheter des pouvoirs permanents.
+commands:
+  shop:
+    description: Ouvre la boutique des pouvoirs permanents.
+    usage: /shop
+  dropshard:
+    description: Dépose des ONYX SHARD au sol.
+    usage: /dropshard <nombre>
+  sold:
+    description: Affiche votre solde de Sold.
+    usage: /sold
